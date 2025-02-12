@@ -19,7 +19,7 @@ while True:
     ab = input("Album: ")
     if ab == 'sair':
         break
-    n_fx = int(input("Número de faixas: "))
+    n_fx = input("Número de faixas: ")
     if n_fx == 'sair':
         break
     fazer_album = make_album(ct, ab, n_fx)
