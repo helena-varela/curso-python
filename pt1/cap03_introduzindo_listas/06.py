@@ -7,6 +7,7 @@
 #• Utilize insert() para adicionar um novo convidado no meio de sua lista.
 #• Utilize append() para adicionar um novo convidado no final de sua lista.
 #• Exiba um novo conjunto de mensagens de convite, uma para cada pessoa que está em sua lista.
+
 lista = ['joao', 'lila','ju']
 print('os convidados serão' + str(lista))
 

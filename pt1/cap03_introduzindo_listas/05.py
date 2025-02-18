@@ -8,6 +8,7 @@
 #comparecer pelo nome da nova pessoa que você está convidando.
 #• Exiba um segundo conjunto de mensagens com o convite, uma para cada
 #pessoa que continua presente em sua lista.
+
 lista = ['joao', 'lila','ju']
 print('os convidados serão' + str(lista))
 

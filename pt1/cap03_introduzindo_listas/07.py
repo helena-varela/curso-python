@@ -13,6 +13,7 @@
 #• Utilize del para remover os dois últimos nomes de sua lista, de modo que você
 #tenha uma lista vazia. Mostre sua lista para garantir que você realmente tem uma
 #lista vazia no final de seu programa.
+
 lista = ['neto','joao','tereza','jonas','ju','vivi']
 
 mensagem = 'oii nao vai dar :( a mesa nao chegou a tempo, '

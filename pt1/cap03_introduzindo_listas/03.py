@@ -1,3 +1,8 @@
+# 3.3 – Sua própria lista: Pense em seu meio de transporte preferido, como
+# motocicleta ou carro, e crie uma lista que armazene vários exemplos. Utilize sua
+# lista para exibir uma série de frases sobre esses itens, como “Gostaria de ter uma
+# moto Honda”.
+
 names = ['carro', 'moto', 'navio', 'trem', 'onibus']
 mensagem_0 = "gostaria de andar de" + ' ' + names[0] 
 mensagem_1 = "\nnunca andei de" + ' ' + names[1]

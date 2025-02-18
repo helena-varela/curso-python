@@ -18,6 +18,7 @@
 # ordem alfabética. Exiba a lista para mostrar que sua ordem mudou.
 # • Utilize sort() para mudar sua lista de modo que ela seja armazenada em
 # ordem alfabética inversa. Exiba a lista para mostrar que sua ordem mudou.
+
 paises = ['japao','italia','grecia','frança','russia']
 print(paises)
 print(sorted(paises))
