@@ -1,0 +1,6 @@
+Em Python podemos trabalhar com listas
+Em Python podemos utilizar instrucoes if e else
+Em Python podemos utilizar dicionarios
+Em Python podemos usar while e input
+Em Python podemos utilizar e fazer funcoes
+Em Python podemos criar classes
