@@ -15,4 +15,6 @@ while True:
         soma = int(n1) + int(n2)
     except ValueError: #se gerar um erro, except tratara o erro
         print('\nO programa aceita apenas números para realizar a soma.\nTente novamente.\n')
-    else: print(f'\nO resultado é: {soma}\n')
+    else: print(f'\nO resultado será: {soma} \n')
+
+#finally - executara mesmo com o except e try dando certo ou errado

@@ -8,21 +8,19 @@
 # lista e então trabalhando com ela fora do bloco with.
 # filename = 'learning_python.txt'
 
-file_path = r'C:\Users\lelena\Documents\curso-python\pt1\cap10_arquivos_e_exceções\learning_python.txt'
-
 # lendo o arquivo todo
-with open(file_path) as file_object:
+with open("learning_python.txt") as file_object:
     contents = file_object.read()
     print(contents)
 
 #pecorrendo o arquivo com um laço
-with open(file_path) as file_object:
+with open("learning_python.txt") as file_object:
     for line in file_object:
         print(line)
 
 
 #armazenando a file em uma lista e trabalhando com ela fora do bloco with
-with open(file_path) as file_object:
+with open("learning_python.txt") as file_object:
     lines = file_object.readlines() #.readlines() armazena a file em uma lista
 
 for line in lines:

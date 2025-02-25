@@ -8,9 +8,7 @@
 # substitua a palavra Python pelo nome de outra linguagem, por exemplo, C. Mostre
 # cada linha modificada na tela.
 
-file_path = r'C:\Users\lelena\Documents\curso-python\pt1\cap10_arquivos_e_exceções\learning_python.txt'
-
-with open(file_path) as file_obejct:
+with open("learning_python.txt") as file_obejct:
     lines = file_obejct.read()
 
 modificação = lines.replace('Python','C')
