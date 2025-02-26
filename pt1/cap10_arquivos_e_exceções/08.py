@@ -13,9 +13,11 @@ try:
 
     with open('cats.txt') as object:  
         arquivo2 = object.read()
+ 
 
 except FileNotFoundError:
     print('File não encontrada')
 
-else: print('Cachorros:\n' + arquivo.title() + '\n') 
-print('Gatos:\n' + arquivo2.title() + '\n')
+else: 
+    print('Cachorros:\n' + arquivo.title() + '\n') 
+    print('Gatos:\n' + arquivo2.title() + '\n')

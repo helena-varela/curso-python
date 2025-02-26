@@ -11,5 +11,6 @@ try:
 except FileNotFoundError:
     pass
 
-else: print('Cachorros:\n' + arquivo.title() + '\n') 
-print('Gatos:\n' + arquivo2.title() + '\n')
+else: 
+    print('Cachorros:\n' + arquivo.title() + '\n') 
+    print('Gatos:\n' + arquivo2.title() + '\n')
